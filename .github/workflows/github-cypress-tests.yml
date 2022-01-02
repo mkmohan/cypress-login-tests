@@ -12,4 +12,8 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           command: npm run cy:run
+          env: username=tomsmith,password=SuperSecretPassword!
+          config: pageLoadTimeout=60000,baseUrl=http://the-internet.herokuapp.com
+
+
 
