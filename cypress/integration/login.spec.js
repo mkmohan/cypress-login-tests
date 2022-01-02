@@ -4,7 +4,7 @@ describe('Login', () => {
     const password = Cypress.env('password');
 
     beforeEach(() => {
-        cy.log(`baseUrl: ${baseUrl}`);
+        cy.log(`Running tests with baseUrl: ${baseUrl}, username: ${username}, password: ${password}`);
         cy.visit(`${baseUrl}/login`);
     });
 
