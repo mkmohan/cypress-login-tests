@@ -13,7 +13,7 @@ jobs:
         with:
           command: npm run cy:run
           env: username=tomsmith,password=SuperSecretPassword!
-          config: pageLoadTimeout=60000,baseUrl=http://the-internet.herokuapp.com
+          config: pageLoadTimeout=60000,baseUrl=http://the-internet.herokuappxyz.com
 
 
 
