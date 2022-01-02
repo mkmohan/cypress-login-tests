@@ -12,7 +12,7 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           env: username=tomsmith,password=SuperSecretPassword!
-          config: baseUrl=http://the-internet.herokuappxyz.com
+          config: baseUrl=http://the-internet.herokuapp.com
 
 
 
