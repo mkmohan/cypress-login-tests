@@ -11,7 +11,7 @@ jobs:
       - name: Run Cypress Tests
         uses: cypress-io/github-action@v2
         with:
-          env: username=tomsmith,password=SuperSecretPassword!
+          env: username=tomsmith123,password=SuperSecretPassword!
           config: baseUrl=http://the-internet.herokuapp.com
 
 
